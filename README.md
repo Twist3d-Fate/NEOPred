@@ -17,3 +17,7 @@ The binary classification model trained to predict whether Near-Earth Objects (N
 -   **Specificity**: The specificity score of approximately 76.87% reflects the model's capability to correctly identify non-hazardous NEOs. This is crucial for preventing unnecessary alarm or resource allocation for harmless objects.
     
 -   **F1 Score**: The F1 score, which combines precision and recall, stands at approximately 89.09%. This balanced metric highlights the model's ability to strike a compromise between minimizing false alarms and ensuring high detection rates.
+
+## Extensions: 
+- Use more model types (CNN, LGBM/Catboosting/XGB, Random Forests, Stacking Classifiers, etc.)
+- Add hyperparameter tuning (Grid Search CV) to improve accuracy and overall performance
